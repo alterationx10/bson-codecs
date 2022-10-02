@@ -8,7 +8,7 @@ import scala.jdk.CollectionConverters.*
 import scala.compiletime.{erasedValue, summonInline}
 import scala.deriving.Mirror
 
-trait BsonEncoder[A] { self =>
+trait BsonEncoder[A] {
   def toBson(a: A): BsonValue
 }
 
