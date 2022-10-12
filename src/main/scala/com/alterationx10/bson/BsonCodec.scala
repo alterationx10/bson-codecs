@@ -38,6 +38,10 @@ object BsonCodec {
     override def toBson(a: Double): BsonValue   = new BsonDouble(a)
     override def fromBson(b: BsonValue): Double = b.asDouble().getValue
 
+  given BsonCodec[Float] = new BsonCodec[Float]:
+    override def toBson(a: Float): BsonValue   = new BsonDouble(a)
+    override def fromBson(b: BsonValue): Float = b.asDouble().getValue().toFloat
+
   given BsonCodec[Boolean] = new BsonCodec[Boolean]:
     override def toBson(a: Boolean): BsonValue   = new BsonBoolean(a)
     override def fromBson(b: BsonValue): Boolean = b.asBoolean().getValue
