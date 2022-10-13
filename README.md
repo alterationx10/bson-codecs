@@ -14,7 +14,7 @@ Solutions:
 
 Latest version:
 
-[![Latest version of 'bson-codecs_3' @ Cloudsmith](https://api-prd.cloudsmith.io/v1/badges/version/alterationx10/ursula/maven/bson-codecs_3/latest/a=noarch;xg=com.alterationx10/?render=true&show_latest=true)](https://cloudsmith.io/~alterationx10/repos/bson-codecs/packages/detail/maven/bson-codecs_3/latest/a=noarch;xg=com.alterationx10/)
+[![Latest version of 'bson-codecs_3' @ Cloudsmith](https://api-prd.cloudsmith.io/v1/badges/version/alterationx10/bson-codecs/maven/bson-codecs_3/latest/a=noarch;xg=com.alterationx10/?render=true&show_latest=true)](https://cloudsmith.io/~alterationx10/repos/bson-codecs/packages/detail/maven/bson-codecs_3/latest/a=noarch;xg=com.alterationx10/)
 
 Note: If the badge doesn't show above, you can check the
 [cloudsmith page](https://cloudsmith.io/~alterationx10/repos/bson-codecs/packages/)
