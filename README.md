@@ -19,3 +19,11 @@ Latest version:
 Note: If the badge doesn't show above, you can check the
 [cloudsmith page](https://cloudsmith.io/~alterationx10/repos/bson-codecs/packages/)
 directly.
+
+### SBT
+
+Add the folowing resolver to your `build.sbt` project.
+
+```
+resolvers += "alterationx10-bson-codecs" at "https://dl.cloudsmith.io/public/alterationx10/bson-codecs/maven/"
+```
